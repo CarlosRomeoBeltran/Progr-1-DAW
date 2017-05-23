@@ -12,9 +12,9 @@ public class Practica83 {
         e1.SetB(teclado.nextDouble());
         System.out.println("Dime c: ");
         e1.SetC(teclado.nextDouble());
-        e1.SetEcuacionSegundoGradoMas(e1.GetA(),e1.GetB(),e1.GetC());
+        e1.EcuacionSegundoGradoMas(e1.GetA(),e1.GetB(),e1.GetC());
         System.out.println("Resultado con + : "+e1.GetMas());
-        e1.SetEcuacionSegundoGradoMenos(e1.GetA(),e1.GetB(),e1.GetC());
+        e1.EcuacionSegundoGradoMenos(e1.GetA(),e1.GetB(),e1.GetC());
         System.out.println("Resultado con - : "+e1.GetMenos());
     }
     

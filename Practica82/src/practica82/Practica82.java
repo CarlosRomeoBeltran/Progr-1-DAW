@@ -7,7 +7,7 @@ public class Practica82 {
         CambioMonedas c1 = new CambioMonedas();
         System.out.println("Este programa te descompone en la menor cantidad posible de billetes y monedas una cantidad de euros.");
         System.out.println("Dime una cantidad de euros.");
-        c1.SetObtenerBilletes(teclado.nextLong());
+        c1.ObtenerBilletes(teclado.nextLong());
         long [] resultado = c1.GetObtenerBilletes();
         long [] billetes = c1.GetBilletes();
         for (int i = 0; resultado.length > i; i++){
