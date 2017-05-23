@@ -10,7 +10,7 @@ public class Practica79 {
         p1.SetApotema(teclado.nextDouble());
         System.out.println("Dime el perimetro: ");
         p1.SetPerimetro(teclado.nextDouble());
-        p1.SetArea(p1.GetApotema(), p1.GetPerimetro());
+        p1.Area(p1.GetApotema(), p1.GetPerimetro());
         System.out.println("El area de tu pentágono es: "+p1.GetArea());
     }
     
