@@ -6,19 +6,19 @@ public class NIF {
     
     public NIF(){        
     }
-    public void SetNIF(String elnif){
+    
+    public NIF(String elnif){       /*Constructor por parametros*/
         this.nif = elnif;
+        ObtenerLetraNif(elnif);
     }
-    private void ObtenerLetraNif(String nif){       /*Nuestro método Obtener letra Nif*/
-        String dni_sin_letra_string = new String();        /*Variable para el dni sin letra pero string */
-        char [] cadena_dni = nif.toCharArray();     /*Convierto el nif en un array de caracteres para posteriormente separar el último carácter (la letra)*/
-        for (int i=0; i<cadena_dni.length; i++){    /*Unifico el dni de array caracteres en una variable string llamada dni_sin_letra_string */
-            dni_sin_letra_string +=cadena_dni[i];   
-        }
-        int dni_sin_letra = Integer.parseInt(dni_sin_letra_string); /*método para pasar el dni sin letra String a una variable integer para posteriormente operar con ella*/
-        int resto;                              /*variable donde guardare el resto que significa el valor de la letra*/
-        String letra = new String();
-        resto = (int) (dni_sin_letra % 23); /*obtengo el resto de dividir entre 23 para obtener un número de la lista equivalente a una letra*/
+    public void SetNIF(String elnif){       /*Setter de NIF*/
+        this.nif = elnif;
+        ObtenerLetraNif(elnif);
+    }
+    private void ObtenerLetraNif(String nif){       /*Nuestro método Obtener letra Nif*/       
+        int dni_sin_letra = Integer.parseInt(nif.substring(0,8));   /*método para pasar el dni a una variable integer sin la letra*/
+        String supuesta_letra = nif.substring(8);    /*Aislo la letra para igualarla con la obtenida y poder decir al usuario si es correcta o incorrecta*/
+        int resto = (int) (dni_sin_letra % 23);     /*obtengo el resto de dividir entre 23 para obtener un número de la lista equivalente a una letra*/
         switch(resto)                   
         {
             case 0: /*Caso 0 para la letra T*/
@@ -27,6 +27,7 @@ public class NIF {
             
             case 1: /*Caso 1 para la letra R*/
                 this.letra = "R"; 
+                
                 break;
 
             case 2: /*Caso 2 para la letra W*/
@@ -111,7 +112,17 @@ public class NIF {
             
             case 22: /*Caso 22 para la letra E*/
                 this.letra = "E";
-                break;
+                break;      
+        }
+        System.out.println("");
+        if(this.letra.equals(supuesta_letra)){       /*Le digo al usuario si es correcto su DNI o no*/           
+            System.out.println("La letra calculada es: "+this.letra);
+            System.out.println("");
+            System.out.println("La letra concuerda con la dada en el DNI.");            
+        }else{
+            System.out.println("La letra no concuerda con la dada en el DNI, es incorrecto.");
+            System.out.println("");
+            System.out.println("La letra que tu DNI tendría que tener es: "+this.letra);
         }
     }
     public String GetLetra(){           /*Un getter para obtener la letra para comprobaciones*/
