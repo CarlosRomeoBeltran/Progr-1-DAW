@@ -5,10 +5,25 @@ public class Triangulo {
     private double base;
     private double altura;
     
-    public void SetArea(double labase, double laaltura){    /*Realizo las operaciones pertinentes para obtener el area del triangulo*/
-        area = (labase * laaltura) / 2;
+    public Triangulo(){
+        
     }
-    public double GetArea(){
+    public Triangulo(double labase, double laaltura){
+        this.base = labase;
+        this.altura = laaltura;
+    }
+    
+    public void SetBase(double labase){
+        this.base = labase;               
+    }
+    
+    public void SetAltura(double laaltura){
+        this.altura = laaltura;               
+    }
+    
+
+    public double GetArea(){    /*Realizo las operaciones pertinentes para obtener el area del triangulo*/
+        area = (this.base * this.altura) / 2;
         return area;
     }
 }
