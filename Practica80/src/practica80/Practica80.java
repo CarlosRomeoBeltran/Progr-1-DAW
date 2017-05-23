@@ -8,9 +8,9 @@ public class Practica80 {
         System.out.println("Este programa te calcula el area y volumen de un cubo."+"\n");
         System.out.println("Dime el arista: ");
         c1.SetArista(teclado.nextDouble());
-        c1.SetArea(c1.GetArista());
+        c1.Area(c1.GetArista());
         System.out.println("El area de tu cubo es: "+c1.GetArea());
-        c1.SetVolumen(c1.GetArista());
+        c1.Volumen(c1.GetArista());
         System.out.println("El volumen de tu cubo es: "+c1.GetVolumen());
     }
     

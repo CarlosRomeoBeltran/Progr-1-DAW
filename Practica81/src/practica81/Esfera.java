@@ -5,19 +5,28 @@ public class Esfera {
     private double area;
     private double volumen;
         
-    public void SetRadio(double elradio){
+    
+    public Esfera(){    /*Constructor por defecto*/
+        
+    }
+    
+    public Esfera(double elradio){    /*Constructor con parametros*/
+        this.radio = elradio;
+        
+    }
+    public void SetRadio(double elradio){   /*Setter del radio*/
         this.radio = elradio;        
     }
-    public double GetRadio(){
+    public double GetRadio(){       /*Getter del radio*/
         return radio;
     }
-    public void SetArea(double elradio){        /*Realizo las operaciones pertinentes para obtener el area de la esfera*/
+    public void Area(double elradio){      /*Método para obtener el area*/  /*Realizo las operaciones pertinentes para obtener el area de la esfera*/
         this.area = Math.PI*4*Math.pow(elradio, 2);
     }
     public double GetArea(){
         return area;
     }
-    public void SetVolumen(double elradio){     /*Realizo las operaciones pertinentes para obtener el volumen de la esfera*/
+    public void Volumen(double elradio){   /*Método para obtener el volumen*/  /*Realizo las operaciones pertinentes para obtener el volumen de la esfera*/
         this.volumen = Math.PI*Math.pow(elradio, 3)*4/3;
     }
     public double GetVolumen(){

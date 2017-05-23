@@ -8,9 +8,9 @@ public class Practica81 {
         System.out.println("Este programa te calcula el area y volumen de una esfera."+"\n");
         System.out.println("Dime el radio: ");
         e1.SetRadio(teclado.nextDouble());
-        e1.SetArea(e1.GetRadio());
+        e1.Area(e1.GetRadio());
         System.out.println("El area de tu esfera es: "+e1.GetArea());
-        e1.SetVolumen(e1.GetRadio());
+        e1.Volumen(e1.GetRadio());
         System.out.println("El volumen de tu esfera es: "+e1.GetVolumen());
     }
 }
