@@ -67,7 +67,7 @@ public class Practica84 {
                             default:
                                 System.out.println("Opción introducida incorrecta. Vuelva a introducir una opción, por favor:");
                         }
-                    }else{
+                    }else{  /*Parte para la cuenta 2*/
                         c1.MenuCambios();
                         op = teclado.nextInt();
                         switch(op){
@@ -114,7 +114,7 @@ public class Practica84 {
               
                     break;
                                
-                case 2:
+                case 2:     /*Peticion de ingreso*/
                     System.out.println("");
                     System.out.println("Introduce una cantidad: ");
                     cantidad = teclado.nextDouble();
@@ -131,7 +131,7 @@ public class Practica84 {
                     }
                     break;
                     
-                case 3:
+                case 3:     /*Peticion de reintegro*/
                     System.out.println("");
                     System.out.println("Introduce una cantidad: ");
                     cantidad = teclado.nextDouble();
@@ -148,7 +148,7 @@ public class Practica84 {
                     }
                     break;
                     
-                case 4:
+                case 4:     /*Hacer transferencia*/
                     System.out.println("");
                     System.out.println("Dime la cantidad que quieres transferir: ");
                     cantidad = teclado.nextDouble();
@@ -165,13 +165,13 @@ public class Practica84 {
                     }
                     break;
                 
-                case 5:
+                case 5:         /*Ver fondos de cuentas*/
                     System.out.println("");
                     System.out.println("Tu cuenta 1 está a: "+c1.VerCuenta()+"€");
                     System.out.println("Tu cuenta 2 está a: "+c2.VerCuenta()+"€");   
                     break;
                 
-                case 6:
+                case 6:     /*Ver datos de cuentas*/
                     System.out.println("");
                     System.out.println("La cuenta 1 es:");
                     c1.MostrarCuenta();
@@ -179,7 +179,8 @@ public class Practica84 {
                     System.out.println("La cuenta 2 es:");
                     c2.MostrarCuenta();
                     break;
-                case 7:
+                    
+                case 7:     /*Finalizar programa*/
                     op = 7;
                     System.out.println("");
                     System.out.println("Finalizando programa...");
