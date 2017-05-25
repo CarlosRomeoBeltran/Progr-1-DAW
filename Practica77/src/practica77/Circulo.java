@@ -18,17 +18,17 @@ public class Circulo {
         this.radio = elradio;
     }
     
-    public void SetArea(double elradio){        /*Realizo las operaciones pertinentes para obtener el area del circulo*/
+    public void SetArea(double elradio){        /*Setter del area*/  /*Realizo las operaciones pertinentes para obtener el area del circulo*/
         this.area =  Math.pow(elradio, 2)* Math.PI;
     }
-    public double GetArea(){
+    public double GetArea(){        /*Getter del area*/
         return area;
     }
     
-    public void SetLongitud(double elradio){    /*Realizo las operaciones pertinentes para obtener la longitud*/
+    public void SetLongitud(double elradio){    /*Setter de la longitud*/  /*Realizo las operaciones pertinentes para obtener la longitud*/
         this.longitud = 2*Math.PI*elradio;
     }
-    public double GetLongitud(){
+    public double GetLongitud(){    /*Getter de la longitud*/
         return longitud;
     }
 }
