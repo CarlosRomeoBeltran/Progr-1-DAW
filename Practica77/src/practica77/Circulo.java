@@ -3,17 +3,18 @@ package practica77;
  *
  * @author carlos
  */
-public class Circulo {
+public class Circulo {  
     
     private double area;
     private double radio;
     private double longitud;
     
-    public Circulo(){
+    public Circulo(){   /*Contructor por defecto*/
         area=0;
         longitud=0;
     }
-    public Circulo(int elradio){
+    
+    public Circulo(int elradio){    /*Constructor por parámetros*/
         this.radio = elradio;
     }
     
