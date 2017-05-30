@@ -167,8 +167,8 @@ public class Practica84 {
                 
                 case 5:         /*Ver fondos de cuentas*/
                     System.out.println("");
-                    System.out.println("Tu cuenta 1 está a: "+c1.VerCuenta()+"€");
-                    System.out.println("Tu cuenta 2 está a: "+c2.VerCuenta()+"€");   
+                    System.out.println("Tu cuenta 1 está a: "+c1.getSaldo()+"€");
+                    System.out.println("Tu cuenta 2 está a: "+c2.getSaldo()+"€");   
                     break;
                 
                 case 6:     /*Ver datos de cuentas*/
