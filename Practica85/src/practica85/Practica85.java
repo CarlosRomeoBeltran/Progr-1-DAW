@@ -172,9 +172,9 @@ public class Practica85 {
                 
                 case 5:     /*Ver cuentas*/
                     System.out.println("");
-                    System.out.println("Tu cuenta 1 está a: "+ArrayCuentas.get(0).VerCuenta()+"€");
-                    System.out.println("Tu cuenta 2 está a: "+ArrayCuentas.get(1).VerCuenta()+"€");   
-                    break;
+                    System.out.println("Tu cuenta 1 está a: "+ArrayCuentas.get(0).getSaldo()+"€");
+                    System.out.println("Tu cuenta 2 está a: "+ArrayCuentas.get(1).getSaldo()+"€");   
+                 break;
                 
                 case 6:     /*Mostrar datos de cuentas*/
                     System.out.println("");
