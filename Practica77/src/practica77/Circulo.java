@@ -1,7 +1,7 @@
 package practica77;
 /**
  *
- * @author carlos
+ * @author carlos romeo
  */
 public class Circulo {  
     
