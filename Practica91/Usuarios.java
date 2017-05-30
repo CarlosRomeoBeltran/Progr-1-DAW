@@ -46,7 +46,7 @@ public class Usuarios {
         System.out.println("");       
     }    
     
-    public void MostrarDatosUsuario(){
+    public void MostrarDatosUsuario(){  /*Método para mostrar los datos de un usuario en concreto*/
         System.out.println("El NIF es: "+this.NIF);
         System.out.println("El nombre es: "+this.nombre);      
         System.out.println("El nombre del libro es: "+this.nombre_libro);
