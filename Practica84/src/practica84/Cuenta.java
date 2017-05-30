@@ -118,10 +118,6 @@ public class Cuenta {
         return elsaldo;
     }
     
-    public double VerCuenta(){        /*Método ver cuenta*/
-        return saldo;
-    }
-    
     public void Menu(){             /*Método para el menu principal*/
         System.out.println("");
         System.out.println("1) Hacer cambios.");
