@@ -1,0 +1,86 @@
+Pract8.- Realiza el ordinograma y el programa que pida la altura y la base y calcule el area del triangulo.
+Pract9.- Realiza el ordinograma y el programa que pida el perimetro y el apotema que calcule el area del pentagono.
+Pract10.- Realiza el ordinograma y el programa que calucle el area y el volumen del cubo.
+Pract11.- Calcula el volumen y el area de la esfera.
+
+Pract14.- Realiza un prg y su ordngr para obtener la hipotenusa y los angulos agudos de un triangulo rectangulo a partir de sus catetos 
+Pract15.- Realiza un programa y su ordinograma que desglose cierta cantidad de segundos introducida por teclado en su equivalente en semanas dias horas minutos y segundos.
+Pract16.- Realiza un programa y su ordinograma que permita convertir una medida dada en pies a sus equivalentes en yardas, pulgadas, centímetros y metros.
+
+
+
+investigacion tipos de datos que permitan incluso llamando a bibliotecas aumentar su cantidad.
+
+
+Pract15.- Se desea calcular el salario neto semanal de los trabajadores de una empresa de acuerdo con las siguientes normas: 
+	-horas semanalaes trabajadas <= 38 que la tasa dada.
+	-Horas extras(38 o mas) a una tasa 50% superior a la ordinaria
+	-Impuesto 0%, si el salario bruto es <= 300 euros.
+	-Impuestos 10% su el salario bruto es > 300 euros.
+Programa que vea horas trabajadas y la tasa a pagar.
+
+
+Pract16.- codifica un prg que escriba la calificacion correspondiente a una nota deacuerdo con esto: 
+0 a <5.0 Suspenso
+5 a < 6.5 Aprobado
+6.5 a < 8.5 Notable
+8.5 a < 10 Sobresaliente
+10  Matrícula de honor
+
+Pract17.- Escribir un programa que determine si un año es bisiesto (si es multiplo de 4) si embargo los años multiplos de 100 solo son bisiestos cuando a la vez son multiplos de 400.
+
+Pract18.- Escribir un programa que calcule el numero de dias de un mes, dado los valores numericos de mes y año. (Tener en cuenta bisiestos)
+
+Pract19opc.- Pedir un numero entre 0 y 9999 y decir cuantas cifras tiene.
+Pract20opc.- Pedir un numero entre 0 y 9999 y mostrarlo con las cifras al revés.
+Pract21opc.- Pedir un numero entre 0 y 9999 y decir si es capicua.
+Pract22opc.- Pedir dia mes y año y decir si la fecha es correcta.
+
+Practica19 switch pedir 1,2,3,4,5,6,7 y dar lunes martes miercoles, etc
+
+Pract20.- Escribir un programa que introduciendo el numero de plato me devuelva los ingredientes del plato
+plato1--> spaghetti a la carbonara, ingr: bacon, nata, cebolla
+plato2--> paella valenciana, ingr: arroz, pollo, azafran, agua, tomate frito
+plato3--> burguer king, ingr: hamburguesa de ternera, cebolla, lechuga, tomate, queso 
+plato4--> tarta chocolate, ingr:
+
+Pract21.- Se trata de escribir un programa que clasifique enteros leidos desde el teclado de acuerdo con los siquientes criterios:
+si es negativo--> mostrar que es negativo
+si es 30 o mayor --> mostrar que es mayor que 30 o 30	
+sino: (menor que 30 y positivo)
+si es par ---> mostrar si es potencia de 2
+o impar
+
+Pract22.- Rehacer el de las notas con otro sistema ;^).(switch)
+
+Pract23.- Escribir un programa con su ordinograma que calcule el importe de una tasa sobre el impuesto anual bruto de un sujeto aplicando coeficientes distintos segun su estado civil sea soltero, casado, divorciado y otros casos. pedir sueldo y sobre caso aplicarlo.
+-soltero 0.25 --> s
+-casado 0.05 ---> c
+-divorciado 0.20 ---> d
+-otros casos 0.0 ---> o
+Tendra un coeficiente reductor si tiene un caso hijos. Si tiene 2 a 1 hijos (da igual el estado civil) /0,15 y si tiene mas de dos hijos /0.5
+
+Pract24.- Escribir un programa y su org que calcule un digito de control(la letra) de nif y nie(opc solo nie). (entrar en ministerio de interior)
+
+
+
+WHILE TIME:
+Pract25.- Prg que sume los 10 primeros múltiplos de 3.
+Pract26.- Prg que sume los 20 primeros números impares.
+Pract27.- Prg que dado un número escriba su tabla de multiplicar.
+Pract28.- Determinad si un número dado es primo o no.
+Pract29.- Dada una serie de este tipo --> 1/1 + 1/2 + ... + 1/n. Dar n y mostrar la serie.
+Pract30.- Dada una serie de este tipo --> 1/2 + 2/2² + 3/2³ + ... + n/2^n. Dar n y calcular la serie.
+Pract31.- Encontrar un numero natural n mas pequeño que la suma de los n primeros numeros naturales que da el valor de una cantidad introducida por el teclado.
+Pract32.- Calcular el factorial de un número.
+Pract33.- Escribe un programa que sume los números pares comprendidos entre 2 y 10.000.
+Pract34.- Escribid un prgr que dado un menú, permita al usuario, llevar los ingresos y gastos de su cuenta.
+1.- Ingreso
+2.- Gasto
+3.- Recibo.
+4.- Finalizar programa.
+Pract35.- Escribid un programa que calcule pi= 4 * sumatorio (-1)^n / (2n+1) precision de 10000 o 50000.
+
+*********** 2º PRÁCTICA 2º EVALUACIÓN *************************
+
+Pract36.- 
